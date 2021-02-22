@@ -1,0 +1,26 @@
+{% extends 'core/base.html' %}
+
+{% block background %}{% load static %}{%  static 'core/img/home-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+    <h1>Jorge Villasmil</h1>
+    <span class="subheading">Desarrollador Web</span>
+{% endblock %}
+
+{% block content %}
+
+    <!-- Contenido Principal -->
+    <div class="row">   
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+          <img class="img-fluid avatar" src="{%  static 'core/img/avatar.jpg' %}" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+          <h2 class="section-heading">Jorge Villasmil</h2>   
+          <p>He aprendido que la mejor forma del desarrollo e procesos y aplicaciones, trabajando en equipo, prestar la mayor colaboración dentro de las organizaciones, y estar dispuesto a aprender cada día ya que con dedicación y paciencia todo es posible.</p>
+          <p> He estado trabajando en varias empresas importantes en el mundo de las tecnologías como programador, A la vez que trabajaba como empleado, también he estado trabajando en proyectos particulares para otras empresas</p>
+          <p>Actualmente creo, diseño, actualizo y mantengo páginas y portales web tanto en el lado del servidor (Back-end) como en el lado del cliente (Front-end, UX/UI).</p>
+          <p>Continuamente aprendiendo y adquiriendo nuevas habilidades en función a las actuales y futuras demandas y tendencias tecnológicas en el campo del diseño y desarrollo de aplicaciones web en general.</p>
+        </div>
+    </div>  
+    <hr>
+{% endblock %}

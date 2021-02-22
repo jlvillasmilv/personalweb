@@ -1,0 +1,23 @@
+{% extends 'core/base.html' %}
+
+{% block title %} Acerca de {% endblock %}
+
+{% block background %}{% load static %}{%  static 'core/img/contact-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+    <h1>Contacto</h1>
+    <span class="subheading">Asesoría</span>
+{% endblock %}
+
+{% block content %}
+    <!-- Contenido Principal -->
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+          <p>Si quiere pedir presupuesto personalizado o realizar cualquier consulta, puede contactar conmigo rellenando el formulario de contacto, indicando con el máximo detalle que pueda los servicios que necesita.
+          </p>
+          <p>¡Intentaré responder lo antes posible!</p>
+          <br>
+          <p><b>Teléfono:</b> +58 4167406228</p>
+      </div>
+    </div>
+{% endblock %}
